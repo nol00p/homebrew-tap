@@ -1,25 +1,25 @@
 class Shoin < Formula
   desc "A no-clutter terminal Markdown editor with modal editing"
   homepage "https://github.com/nol00p/Shoin"
-  version "0.2.2"
+  version "0.2.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/nol00p/Shoin/releases/download/v0.2.2/shoin-aarch64-apple-darwin.tar.xz"
-      sha256 "79b341db84b29100c62e60b1cbce2a8cb3a5c57a8ad559f63ef951ceb8d7737d"
+      url "https://github.com/nol00p/Shoin/releases/download/v0.2.3/shoin-aarch64-apple-darwin.tar.xz"
+      sha256 "4c5ed5dc4ac8e76c58e04c9d9115b6ce84fdd0af628487a40934c4e214420ab3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/nol00p/Shoin/releases/download/v0.2.2/shoin-x86_64-apple-darwin.tar.xz"
-      sha256 "c64a50c2c13019fe55f02d975576cac5624b76cefa5b4a2d529fd309f8472560"
+      url "https://github.com/nol00p/Shoin/releases/download/v0.2.3/shoin-x86_64-apple-darwin.tar.xz"
+      sha256 "e0addc561e656009209c489d72516a78bcb41292c4ceb19eac26d24961e92a62"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/nol00p/Shoin/releases/download/v0.2.2/shoin-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "f8a3d6a5659198fc1362e9e06291b81cc64843caa5d1b3f6c11d63851bd98b78"
+      url "https://github.com/nol00p/Shoin/releases/download/v0.2.3/shoin-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3b666f9bb1baa24d9601d59f62f983c323c850585bb029d024070f1dc29ccd61"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/nol00p/Shoin/releases/download/v0.2.2/shoin-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "440a27ef4a90bc4425218d8b67feb4755452c5c701c4f5c8ee019c9028a43f68"
+      url "https://github.com/nol00p/Shoin/releases/download/v0.2.3/shoin-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "9460156964d88e756022c1daec9373b7611e4fcfd59552e2461a6244b0fcc79a"
     end
   end
   license "Apache-2.0"
